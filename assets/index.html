@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/NBAicon.png" sizes="64x64" type="image/png">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <title>YOUR RANDOM NBA TEAM</title>
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('./img/NBAbackgroundimg.jpeg');
+        }
+    </style>
+
+    <header id="header">
+        <img id="logo" src="./img/NBAheader.png" width="75px" />
+        <p> YOUR RANDOM NBA TEAM GENERATOR</p>
+    </header>
+
+    <section id="content">
+        <h1>RANDOMIZE YOUR TEAM</h1>
+        <h2>First Team</h2>
+        <div id="team1Display">
+            <button onclick="firstTeam()">CLICK HERE</button>
+        </div>
+        <br>
+        <h2>Second Team</h2>
+        <div id="team2Display">
+            <button onclick="secondTeam()">CLICK HERE</button>
+        </div>
+        <br>
+        <h2>WHO WINS?</h2>
+        <div id="displayResult">
+            <button onclick="gameResult()">SEE RESULT</button>
+        </div>
+        
+    </section>
+
+    <footer>
+        copyright&copy;adhityaprianda, 2021
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
