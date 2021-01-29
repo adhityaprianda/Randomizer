@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto Condensed';
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    justify-content:space-between;
+    color: white;
+    background-color: #0F3057;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+header p {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 30px;
+}
+
+section {
+    margin-top: 85px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: rgba(0,0,0,.75);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+section h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+section h2 {
+    text-decoration: underline;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+section button {
+    position: relative;
+}
+
+section #team1Display {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+section #team2Display {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+section #displayResult {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+section p {
+    color: white;
+}
+
+footer {
+    padding: 0 25px 25px 25px;
+    color: white;
+    text-align: left;
+}
